@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1082
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EQ2UI_Editor.UI", "EQ2UI_Editor.UI.csproj", "{15B60CC2-EE12-48EA-B34B-37D87A28C40A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EQ2UI_Editor.UI", "EQ2UI_Editor.UI/EQ2UI_Editor.UI.csproj", "{15B60CC2-EE12-48EA-B34B-37D87A28C40A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
