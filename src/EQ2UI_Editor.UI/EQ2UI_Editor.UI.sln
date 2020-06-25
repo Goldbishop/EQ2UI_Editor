@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EQ2UI_Editor.UI", "EQ2UI_Editor.UI.csproj", "{15B60CC2-EE12-48EA-B34B-37D87A28C40A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15B60CC2-EE12-48EA-B34B-37D87A28C40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B60CC2-EE12-48EA-B34B-37D87A28C40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B60CC2-EE12-48EA-B34B-37D87A28C40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B60CC2-EE12-48EA-B34B-37D87A28C40A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C269316F-465F-4091-B65A-93678AC9DD72}
+	EndGlobalSection
+EndGlobal
