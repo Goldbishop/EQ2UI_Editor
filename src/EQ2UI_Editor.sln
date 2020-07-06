@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EQ2UI_Editor.UI", "EQ2UI_Ed
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EQ2UI_Editor.Objects", "EQ2UI_Editor.Objects\EQ2UI_Editor.Objects.csproj", "{9590053F-D1C0-4126-B314-8C5758B18268}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EQ2UI_Editor.Files", "EQ2UI_Editor.Files\EQ2UI_Editor.Files.csproj", "{77C7D83B-4A8C-42AC-BF45-F2951261A491}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9590053F-D1C0-4126-B314-8C5758B18268}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9590053F-D1C0-4126-B314-8C5758B18268}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9590053F-D1C0-4126-B314-8C5758B18268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C7D83B-4A8C-42AC-BF45-F2951261A491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C7D83B-4A8C-42AC-BF45-F2951261A491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C7D83B-4A8C-42AC-BF45-F2951261A491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C7D83B-4A8C-42AC-BF45-F2951261A491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
