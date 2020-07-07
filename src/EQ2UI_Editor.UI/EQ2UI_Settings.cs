@@ -1,0 +1,31 @@
+﻿using System;
+using System.Windows.Forms;
+
+namespace EQ2UI_Editor.UI {
+	public partial class EQ2UI_Settings : EQ2UI_Form {
+
+		public EQ2UI_Settings ( ) {
+			this.InitializeComponent ();
+		}
+
+
+		private void btnEQ2Directory_Click ( Object sender , EventArgs e ) {
+			var dlg = new FolderBrowserDialog ();
+			dlg.ShowNewFolderButton = false;
+			dlg.RootFolder = Environment.SpecialFolder.ProgramFiles;
+
+			var dir = @"";
+
+			switch ( dlg.ShowDialog () ) {
+				case DialogResult.OK | DialogResult.Yes:
+					dir = dlg.SelectedPath;
+					break;
+				default:
+					// All non-Selection results
+					break;
+			}
+
+
+		}
+	}
+}
