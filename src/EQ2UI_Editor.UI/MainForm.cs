@@ -13,5 +13,10 @@ namespace EQ2UI_Editor.UI {
 		public MainForm ( ) {
 			InitializeComponent ();
 		}
+
+		private void mnuAboutSettings_Click ( Object sender , EventArgs e ) {
+			var frm = new EQ2UI_Settings ();
+			frm.ShowDialog ();
+		}
 	}
 }
