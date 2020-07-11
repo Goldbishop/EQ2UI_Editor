@@ -18,7 +18,8 @@ namespace EQ2UI_Editor.UI {
 			var dir = @"";
 
 			switch ( dlg.ShowDialog () ) {
-				case DialogResult.OK | DialogResult.Yes:
+				case DialogResult.OK:
+				case DialogResult.Yes:
 					dir = dlg.SelectedPath;
 					break;
 				default:
