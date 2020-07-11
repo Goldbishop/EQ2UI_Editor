@@ -11,5 +11,9 @@ namespace EQ2UI_Editor.UI {
 			var frm = new EQ2UI_Settings ();
 			frm.ShowDialog ();
 		}
+
+		private void exitToolStripMenuItem_Click ( Object sender , EventArgs e ) {
+			this.Close ();
+		}
 	}
 }
