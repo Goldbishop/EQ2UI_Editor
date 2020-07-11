@@ -6,8 +6,9 @@ namespace EQ2UI_Editor.UI {
 
 		public EQ2UI_Settings ( ) {
 			this.InitializeComponent ();
-		}
 
+			this.btnRestart.Enabled = false;
+		}
 
 		private void btnEQ2Directory_Click ( Object sender , EventArgs e ) {
 			var dlg = new FolderBrowserDialog ();
