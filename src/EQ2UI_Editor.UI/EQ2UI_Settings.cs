@@ -25,6 +25,16 @@ namespace EQ2UI_Editor.UI {
 					break;
 			}
 
+		}
+
+		private void btnCancel_Click ( Object sender , EventArgs e ) {
+		}
+
+		private void btnApply_Click ( Object sender , EventArgs e ) {
+
+		}
+
+		private void btnRestart_Click ( Object sender , EventArgs e ) {
 
 		}
 	}
