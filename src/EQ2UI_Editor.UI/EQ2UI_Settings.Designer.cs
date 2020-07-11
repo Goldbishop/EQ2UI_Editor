@@ -24,17 +24,17 @@
 		/// </summary>
 		private void InitializeComponent ( ) {
 			this.pnlActions = new System.Windows.Forms.Panel();
-			this.btnApply = new System.Windows.Forms.Button();
-			this.btnCancel = new System.Windows.Forms.Button();
 			this.btnRestart = new System.Windows.Forms.Button();
+			this.btnCancel = new System.Windows.Forms.Button();
+			this.btnApply = new System.Windows.Forms.Button();
 			this.pnlSettings = new System.Windows.Forms.Panel();
 			this.tabCollection = new System.Windows.Forms.TabControl();
 			this.tabGeneral = new System.Windows.Forms.TabPage();
-			this.tabEQ2 = new System.Windows.Forms.TabPage();
 			this.grpApplication = new System.Windows.Forms.GroupBox();
 			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.label1 = new System.Windows.Forms.Label();
+			this.tabEQ2 = new System.Windows.Forms.TabPage();
 			this.btnEQ2Directory = new System.Windows.Forms.Button();
+			this.label1 = new System.Windows.Forms.Label();
 			this.pnlActions.SuspendLayout();
 			this.pnlSettings.SuspendLayout();
 			this.tabCollection.SuspendLayout();
