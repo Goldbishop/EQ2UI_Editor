@@ -13,7 +13,6 @@ namespace EQ2UI_Editor.UI {
 		private void btnEQ2Directory_Click ( Object sender , EventArgs e ) {
 			var dlg = new FolderBrowserDialog ();
 			dlg.ShowNewFolderButton = false;
-			dlg.RootFolder = Environment.SpecialFolder.ProgramFiles;
 
 			var dir = @"";
 
