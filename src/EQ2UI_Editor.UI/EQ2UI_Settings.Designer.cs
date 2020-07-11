@@ -31,11 +31,13 @@
 			this.tabCollection = new System.Windows.Forms.TabControl();
 			this.tabGeneral = new System.Windows.Forms.TabPage();
 			this.grpApplication = new System.Windows.Forms.GroupBox();
-			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.tabEQ2 = new System.Windows.Forms.TabPage();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
+			this.txtEQ2UIDirectory = new System.Windows.Forms.TextBox();
+			this.lblEQ2UIDirectory = new System.Windows.Forms.Label();
 			this.btnEQ2Directory = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
+			this.txtEQ2Directory = new System.Windows.Forms.TextBox();
 			this.pnlActions.SuspendLayout();
 			this.pnlSettings.SuspendLayout();
 			this.tabCollection.SuspendLayout();
@@ -73,6 +75,7 @@
 			this.btnCancel.TabIndex = 1;
 			this.btnCancel.Text = "Cancel";
 			this.btnCancel.UseVisualStyleBackColor = true;
+			this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
 			// 
 			// btnApply
 			// 
@@ -129,7 +132,7 @@
 			this.tabEQ2.Controls.Add(this.groupBox1);
 			this.tabEQ2.Controls.Add(this.btnEQ2Directory);
 			this.tabEQ2.Controls.Add(this.label1);
-			this.tabEQ2.Controls.Add(this.textBox1);
+			this.tabEQ2.Controls.Add(this.txtEQ2Directory);
 			this.tabEQ2.Location = new System.Drawing.Point(4, 22);
 			this.tabEQ2.Name = "tabEQ2";
 			this.tabEQ2.Padding = new System.Windows.Forms.Padding(3);
@@ -149,21 +152,22 @@
 			this.groupBox1.TabStop = false;
 			this.groupBox1.Text = "groupBox1";
 			// 
-			// textBox1
+			// txtEQ2UIDirectory
 			// 
-			this.textBox1.Location = new System.Drawing.Point(6, 23);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(299, 20);
-			this.textBox1.TabIndex = 0;
+			this.txtEQ2UIDirectory.Enabled = false;
+			this.txtEQ2UIDirectory.Location = new System.Drawing.Point(140, 17);
+			this.txtEQ2UIDirectory.Name = "txtEQ2UIDirectory";
+			this.txtEQ2UIDirectory.Size = new System.Drawing.Size(306, 20);
+			this.txtEQ2UIDirectory.TabIndex = 1;
 			// 
-			// label1
+			// lblEQ2UIDirectory
 			// 
-			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(6, 7);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(73, 13);
-			this.label1.TabIndex = 1;
-			this.label1.Text = "EQ2 Directory";
+			this.lblEQ2UIDirectory.AutoSize = true;
+			this.lblEQ2UIDirectory.Location = new System.Drawing.Point(65, 20);
+			this.lblEQ2UIDirectory.Name = "lblEQ2UIDirectory";
+			this.lblEQ2UIDirectory.Size = new System.Drawing.Size(69, 13);
+			this.lblEQ2UIDirectory.TabIndex = 0;
+			this.lblEQ2UIDirectory.Text = "UI Directory: ";
 			// 
 			// btnEQ2Directory
 			// 
@@ -174,6 +178,22 @@
 			this.btnEQ2Directory.Text = "...";
 			this.btnEQ2Directory.UseVisualStyleBackColor = true;
 			this.btnEQ2Directory.Click += new System.EventHandler(this.btnEQ2Directory_Click);
+			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.Location = new System.Drawing.Point(6, 7);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(73, 13);
+			this.label1.TabIndex = 1;
+			this.label1.Text = "EQ2 Directory";
+			// 
+			// txtEQ2Directory
+			// 
+			this.txtEQ2Directory.Location = new System.Drawing.Point(6, 23);
+			this.txtEQ2Directory.Name = "txtEQ2Directory";
+			this.txtEQ2Directory.Size = new System.Drawing.Size(299, 20);
+			this.txtEQ2Directory.TabIndex = 0;
 			// 
 			// EQ2UI_Settings
 			// 
@@ -216,7 +236,9 @@
 		private System.Windows.Forms.TabPage tabEQ2;
 		private System.Windows.Forms.Button btnEQ2Directory;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox txtEQ2Directory;
 		private System.Windows.Forms.GroupBox groupBox1;
+		private System.Windows.Forms.TextBox txtEQ2UIDirectory;
+		private System.Windows.Forms.Label lblEQ2UIDirectory;
 	}
 }
