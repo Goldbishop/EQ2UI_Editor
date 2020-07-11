@@ -33,6 +33,7 @@
 			this.grpApplication = new System.Windows.Forms.GroupBox();
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.tabEQ2 = new System.Windows.Forms.TabPage();
+			this.groupBox1 = new System.Windows.Forms.GroupBox();
 			this.btnEQ2Directory = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
 			this.pnlActions.SuspendLayout();
@@ -40,6 +41,7 @@
 			this.tabCollection.SuspendLayout();
 			this.tabGeneral.SuspendLayout();
 			this.tabEQ2.SuspendLayout();
+			this.groupBox1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// pnlActions
@@ -53,14 +55,15 @@
 			this.pnlActions.Size = new System.Drawing.Size(800, 33);
 			this.pnlActions.TabIndex = 0;
 			// 
-			// btnApply
+			// btnRestart
 			// 
-			this.btnApply.Location = new System.Drawing.Point(108, 5);
-			this.btnApply.Name = "btnApply";
-			this.btnApply.Size = new System.Drawing.Size(75, 23);
-			this.btnApply.TabIndex = 0;
-			this.btnApply.Text = "Apply";
-			this.btnApply.UseVisualStyleBackColor = true;
+			this.btnRestart.Location = new System.Drawing.Point(599, 5);
+			this.btnRestart.Name = "btnRestart";
+			this.btnRestart.Size = new System.Drawing.Size(75, 23);
+			this.btnRestart.TabIndex = 2;
+			this.btnRestart.Text = "Restart";
+			this.btnRestart.UseVisualStyleBackColor = true;
+			this.btnRestart.Click += new System.EventHandler(this.btnRestart_Click);
 			// 
 			// btnCancel
 			// 
@@ -71,14 +74,15 @@
 			this.btnCancel.Text = "Cancel";
 			this.btnCancel.UseVisualStyleBackColor = true;
 			// 
-			// btnRestart
+			// btnApply
 			// 
-			this.btnRestart.Location = new System.Drawing.Point(599, 5);
-			this.btnRestart.Name = "btnRestart";
-			this.btnRestart.Size = new System.Drawing.Size(75, 23);
-			this.btnRestart.TabIndex = 2;
-			this.btnRestart.Text = "Restart";
-			this.btnRestart.UseVisualStyleBackColor = true;
+			this.btnApply.Location = new System.Drawing.Point(108, 5);
+			this.btnApply.Name = "btnApply";
+			this.btnApply.Size = new System.Drawing.Size(75, 23);
+			this.btnApply.TabIndex = 0;
+			this.btnApply.Text = "Apply";
+			this.btnApply.UseVisualStyleBackColor = true;
+			this.btnApply.Click += new System.EventHandler(this.btnApply_Click);
 			// 
 			// pnlSettings
 			// 
@@ -111,8 +115,18 @@
 			this.tabGeneral.Text = "General";
 			this.tabGeneral.UseVisualStyleBackColor = true;
 			// 
+			// grpApplication
+			// 
+			this.grpApplication.Location = new System.Drawing.Point(8, 6);
+			this.grpApplication.Name = "grpApplication";
+			this.grpApplication.Size = new System.Drawing.Size(776, 100);
+			this.grpApplication.TabIndex = 0;
+			this.grpApplication.TabStop = false;
+			this.grpApplication.Text = "Application";
+			// 
 			// tabEQ2
 			// 
+			this.tabEQ2.Controls.Add(this.groupBox1);
 			this.tabEQ2.Controls.Add(this.btnEQ2Directory);
 			this.tabEQ2.Controls.Add(this.label1);
 			this.tabEQ2.Controls.Add(this.textBox1);
@@ -124,14 +138,16 @@
 			this.tabEQ2.Text = "EverQuest 2";
 			this.tabEQ2.UseVisualStyleBackColor = true;
 			// 
-			// grpApplication
+			// groupBox1
 			// 
-			this.grpApplication.Location = new System.Drawing.Point(8, 6);
-			this.grpApplication.Name = "grpApplication";
-			this.grpApplication.Size = new System.Drawing.Size(776, 100);
-			this.grpApplication.TabIndex = 0;
-			this.grpApplication.TabStop = false;
-			this.grpApplication.Text = "Application";
+			this.groupBox1.Controls.Add(this.txtEQ2UIDirectory);
+			this.groupBox1.Controls.Add(this.lblEQ2UIDirectory);
+			this.groupBox1.Location = new System.Drawing.Point(9, 49);
+			this.groupBox1.Name = "groupBox1";
+			this.groupBox1.Size = new System.Drawing.Size(524, 167);
+			this.groupBox1.TabIndex = 3;
+			this.groupBox1.TabStop = false;
+			this.groupBox1.Text = "groupBox1";
 			// 
 			// textBox1
 			// 
@@ -181,6 +197,8 @@
 			this.tabGeneral.ResumeLayout(false);
 			this.tabEQ2.ResumeLayout(false);
 			this.tabEQ2.PerformLayout();
+			this.groupBox1.ResumeLayout(false);
+			this.groupBox1.PerformLayout();
 			this.ResumeLayout(false);
 
 		}
@@ -199,5 +217,6 @@
 		private System.Windows.Forms.Button btnEQ2Directory;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.GroupBox groupBox1;
 	}
 }
