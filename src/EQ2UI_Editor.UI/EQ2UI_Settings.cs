@@ -26,6 +26,9 @@ namespace EQ2UI_Editor.UI {
 					break;
 			}
 
+			this.txtEQ2Directory.Text = dir;
+			this.txtEQ2UIDirectory.Text = $"{dir}\\UI";
+
 		}
 
 		private void btnCancel_Click ( Object sender , EventArgs e ) {
