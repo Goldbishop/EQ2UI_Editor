@@ -25,13 +25,13 @@
 		private void InitializeComponent ( ) {
 			this.mnuMain = new System.Windows.Forms.MenuStrip();
 			this.mnuFile = new System.Windows.Forms.ToolStripMenuItem();
-			this.mnuEdit = new System.Windows.Forms.ToolStripMenuItem();
-			this.mnuAbout = new System.Windows.Forms.ToolStripMenuItem();
-			this.mnuAboutApp = new System.Windows.Forms.ToolStripMenuItem();
 			this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
 			this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.mnuEdit = new System.Windows.Forms.ToolStripMenuItem();
+			this.mnuAbout = new System.Windows.Forms.ToolStripMenuItem();
+			this.mnuAboutApp = new System.Windows.Forms.ToolStripMenuItem();
 			this.mnuAboutSettings = new System.Windows.Forms.ToolStripMenuItem();
 			this.mnuMain.SuspendLayout();
 			this.SuspendLayout();
@@ -59,30 +59,6 @@
 			this.mnuFile.Size = new System.Drawing.Size(37, 20);
 			this.mnuFile.Text = "&File";
 			// 
-			// mnuEdit
-			// 
-			this.mnuEdit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-			this.mnuEdit.Name = "mnuEdit";
-			this.mnuEdit.Size = new System.Drawing.Size(61, 20);
-			this.mnuEdit.Text = "Options";
-			// 
-			// mnuAbout
-			// 
-			this.mnuAbout.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-			this.mnuAbout.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuAboutApp,
-            this.mnuAboutSettings});
-			this.mnuAbout.Name = "mnuAbout";
-			this.mnuAbout.Size = new System.Drawing.Size(52, 20);
-			this.mnuAbout.Text = "About";
-			// 
-			// mnuAboutApp
-			// 
-			this.mnuAboutApp.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-			this.mnuAboutApp.Name = "mnuAboutApp";
-			this.mnuAboutApp.Size = new System.Drawing.Size(180, 22);
-			this.mnuAboutApp.Text = "EQ2 UI (Web)";
-			// 
 			// newToolStripMenuItem
 			// 
 			this.newToolStripMenuItem.Name = "newToolStripMenuItem";
@@ -105,6 +81,30 @@
 			this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
 			this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.exitToolStripMenuItem.Text = "E&xit";
+			// 
+			// mnuEdit
+			// 
+			this.mnuEdit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+			this.mnuEdit.Name = "mnuEdit";
+			this.mnuEdit.Size = new System.Drawing.Size(61, 20);
+			this.mnuEdit.Text = "Options";
+			// 
+			// mnuAbout
+			// 
+			this.mnuAbout.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+			this.mnuAbout.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuAboutApp,
+            this.mnuAboutSettings});
+			this.mnuAbout.Name = "mnuAbout";
+			this.mnuAbout.Size = new System.Drawing.Size(52, 20);
+			this.mnuAbout.Text = "About";
+			// 
+			// mnuAboutApp
+			// 
+			this.mnuAboutApp.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+			this.mnuAboutApp.Name = "mnuAboutApp";
+			this.mnuAboutApp.Size = new System.Drawing.Size(144, 22);
+			this.mnuAboutApp.Text = "EQ2 UI (Web)";
 			// 
 			// mnuAboutSettings
 			// 
