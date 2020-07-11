@@ -92,5 +92,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EQ2UI_Editor.Files\EQ2UI_Editor.Files.csproj">
+      <Project>{77c7d83b-4a8c-42ac-bf45-f2951261a491}</Project>
+      <Name>EQ2UI_Editor.Files</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EQ2UI_Editor.Objects\EQ2UI_Editor.Objects.csproj">
+      <Project>{9590053f-d1c0-4126-b314-8c5758b18268}</Project>
+      <Name>EQ2UI_Editor.Objects</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
