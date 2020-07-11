@@ -28,6 +28,7 @@ namespace EQ2UI_Editor.UI {
 		}
 
 		private void btnCancel_Click ( Object sender , EventArgs e ) {
+			this.Close ();
 		}
 
 		private void btnApply_Click ( Object sender , EventArgs e ) {
